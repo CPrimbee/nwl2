@@ -1,0 +1,47 @@
+# dependencies
+web/node_modules
+web/.pnp
+web/.pnp.js
+server/node_modules
+server/.pnp
+server/.pnp.js
+
+# testing
+web/coverage
+server/coverage
+
+# production
+web/build
+server/build
+
+# misc
+web/.DS_Store
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+server/.DS_Store
+server/.env.local
+server/.env.development.local
+server/.env.test.local
+server/.env.production.local
+
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+
+mobile/node_modules/**/*
+mobile/.expo/*
+mobile/npm-debug.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/*.orig.*
+mobile/web-build/
+
+mobile/.DS_Store
