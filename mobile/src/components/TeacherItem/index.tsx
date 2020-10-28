@@ -29,7 +29,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, favorited }) => {
 
   function handleLinkToWhatsapp() {
     api.post("connections", { user_id: teacher.id });
-    
+
     Linking.openURL(`whatsapp://send?phone=${teacher.whatsapp}`);
   }
 
@@ -77,7 +77,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, favorited }) => {
           <Text style={styles.priceValue}>R$ {teacher.cost}</Text>
         </Text>
 
-        <View style={[styles.buttonsContainer, styles.favorited]}>
+        <View style={styles.buttonsContainer}>
           <RectButton
             onPress={handleToggleFavorite}
             style={[styles.favoriteButton, isFavorited ? styles.favorited : {}]}

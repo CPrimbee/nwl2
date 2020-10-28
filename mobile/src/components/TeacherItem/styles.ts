@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
 
   subject: {
-    fontFamily: "Poppins_400regular",
+    fontFamily: "Poppins_400Regular",
     color: "#6A6180",
     fontSize: 12,
     marginTop: 4,
